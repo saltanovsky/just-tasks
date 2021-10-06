@@ -1,0 +1,28 @@
+#main {
+    position: absolute;
+}
+div {
+    margin: 5px;
+}
+#interactive {
+    margin: 20px;
+}
+.alert {
+    display: none;
+}
+
+.preloader {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0.5;
+}
+.preloader__loader {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 17px);
+}
